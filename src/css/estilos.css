@@ -2,13 +2,15 @@ body{
     font-family: 'Poppins', sans-serif;
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #5e5b5bad;
+    background: rgb(5,186,255);
+    background: linear-gradient(180deg, rgba(5,186,255,1) 40%, rgba(40,246,175,1) 96%);
     color: #333333;
-
+    
 }
 
 body.modo-escuro {
-    background-color: #212121;
+    background: rgb(252,210,176);
+    background: linear-gradient(180deg, rgba(234,174,190) , rgba(195,98,220) ,  rgba(32,0,135));
     color: #f5f5f5;
 }
 
@@ -118,6 +120,44 @@ main .cartao-pokemon .tipo{
 .inseto{
     background-color: #A6B91A
 }
+.normal{
+    background-color: #A4ACAF;
+}
+.eletrico{
+    background-color: #EED535;
+}
+.terra{
+    background-color: #AB9842;
+}
+.lutador{
+    background-color: #D56723;
+}
+.pedra{
+    background-color: #A38C21;
+}
+.psiquico{
+    background-color: #F366B9 ;
+}
+.gelo{
+    background-color: #51C4E7;
+}
+.fantasma{
+    background-color: #7B62A3;
+}
+.metal{
+    background-color: #9EB7B8;
+}
+.dragao{
+    background-color: #53A4CF;
+}
+.sombrio{
+    background-color: #707070;
+}
+.fada{
+    background-color: #FDB9E9;
+}
+
+
 
 main .descricao{
     max-height: 80px;
@@ -127,13 +167,40 @@ main .descricao{
 }
 
 footer{
-    margin: 68px 0 12px;
+    margin: 50px 0 -4px;
     display:flex ;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;    
+}
+footer p{
+    font-size: clamp(10px, 4vw, 2rem);
+    
+}
+footer a{
+    font-size: 2rem;
+    margin-right:10px;
+    text-decoration: none;
+    color:#551A8B;
 }
 
-footer p,a{
-    font-size: 1.5em;
+footer a:hover{
+    text-decoration: none;
+    color:#EEE9CA;
 }
 
+footer a.modo-escuro{
+    color:#EEE9CA;
+    text-decoration: none;
+}
+.voltar-inicio img{
+   width: 80px; 
+   height: 80px;
+   bottom: 3%;
+   position: fixed;
+   right: 1%;
+   text-align: center;
+   opacity: 0.5;
+}
+.voltar-inicio img:hover{
+    opacity: 1;
+}
