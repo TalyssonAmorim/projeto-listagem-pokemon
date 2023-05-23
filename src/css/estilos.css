@@ -208,7 +208,7 @@ footer a:hover {
     color: #EEE9CA;
 }
 
-footer a.modo-escuro {
+footer a .modo-escuro {
     color: #EEE9CA;
     text-decoration: none;
 }
