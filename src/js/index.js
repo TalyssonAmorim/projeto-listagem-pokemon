@@ -16,3 +16,12 @@ botaoAlterarTema.addEventListener("click", () => {
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/IMG//moon.png");
     }
 });
+
+document.addEventListener("scroll", function () {
+    var posicaoy = window.pageYOffset;
+    if (posicaoy == 0) {
+        vt.style.opacity = "0.0";
+    } else {
+        vt.style.opacity = "1";
+    }
+});
