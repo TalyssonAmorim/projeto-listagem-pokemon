@@ -3,6 +3,7 @@ const botaoAlterarTema = document.getElementById("botao-alterar-tema");
 const body = document.querySelector("body");
 
 const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
+const voltarAoTopo = document.querySelector(".btntopo");
 
 botaoAlterarTema.addEventListener("click", () => {
 
@@ -12,8 +13,10 @@ botaoAlterarTema.addEventListener("click", () => {
 
     if (modoEscuroEstaAtivo) {
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/IMG/sun.png");
+        voltarAoTopo.setAttribute("src", "./src/IMG/topo.png")
     } else {
         imagemBotaoTrocaDeTema.setAttribute("src", "./src/IMG//moon.png");
+        voltarAoTopo.setAttribute("src", "./src/IMG/topome.png");
     }
 });
 
@@ -22,6 +25,6 @@ document.addEventListener("scroll", function () {
     if (posicaoy == 0) {
         vt.style.opacity = "0.0";
     } else {
-        vt.style.opacity = "1";
+        vt.style.opacity = "0.9";
     }
 });
