@@ -5,7 +5,7 @@
 <a align="center" href="https://talyssonamorim.github.io/projeto-listagem-pokemon/" target="_blank"><b><i>Pokedex</b></i></a>
 <br>
 <br>
-<h2>Obejtivo: Criar uma pokedex de 1ª Geraçao utilizando:<h2>
+<h2>Obejtivo: Criar uma pokedex utilizando:<h2>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
